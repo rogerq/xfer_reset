@@ -1,0 +1,9 @@
+README:
+
+xfer_reset is a simple test program to send a device reset
+while  bulk out transfers are on going on an attached g_zero gadget.
+
+It is meant to be used with the accompanying usbreset_test.sh
+script to stress test the gadget.
+
+Needs libusb-1.0 and libpthread.
